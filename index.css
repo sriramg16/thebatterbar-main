@@ -1,0 +1,222 @@
+
+.navbar {
+    border: 1px white solid;
+    background-color: rgb(3, 27, 46);
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    z-index: 999;
+}
+
+.nav-item {
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 75px;
+    margin-left: 1%;
+    margin-top: -6px;
+}
+
+.nav-link {
+    color: rgb(240, 237, 237);
+    font-size: larger;
+}
+
+
+/*sec1*/
+.head{
+    color: rgb(31, 146, 146);
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.head1{
+    display: flex;
+    justify-content: center;
+    color: rgb(31, 146, 146);
+}
+
+
+
+/*sec2*/
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec2img{
+    width: 55%;
+    margin-top: 5%;
+}
+.sec2h1{
+    margin-top: 5%;
+    margin-left: 45%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.sec2p{
+    margin-left: 10%;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+/*sec3*/
+.sec3h1{
+    color: rgb(14, 32, 32);
+    margin-top:10%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/*sec-4*/
+.sec4img{
+    border-radius: 2%;
+    width: 150%;
+    margin-top: 3%;
+}
+/*sec5*/
+.sec5h1{
+    font-size: xx-large;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+
+/*sec-6*/
+.carousel {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 0;
+    margin-bottom: 35px;
+}
+
+.imagewrap {
+    padding: 5px;
+    flex: 1;
+}
+
+.imagewrap img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    border-radius: 5%;
+}
+
+/*sec-7*/
+.sec7h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(8, 77, 77, 0.632);
+    margin-top: 5%;
+}
+.sec7img{
+    border: 1px solid gray;
+    margin-top: 10%;
+    width: 125%;
+    border-radius: 15% 1% 15% 1%;
+}
+.sec7img1{
+    border: 1px solid gray;
+    border-radius: 1% 15% 1% 15%;
+    margin-left: 45%;
+    width: 125%;
+     margin-top: 65%;
+}
+
+/*sec8*/
+.sec8h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(8, 77, 77, 0.632);
+    margin-top: 5%;
+}
+.sec8img{
+    border: 1px solid gray;
+    margin-top: 10%;
+    width: 125%;
+    border-radius: 15% 1% 15% 1%;
+}
+
+        #myForm {
+            background-image:url(./luxury-background-with-golden-abstract-shapes_23-2148258294.avif);
+            display: flex;
+            flex-direction: column;
+            width: 450px;
+            padding: 2%;
+            color: rgb(251, 251, 254);
+            background-color: rgb(8, 4, 0);
+            margin-left: 52%;
+            margin-top: 35%;
+            border-radius: 2%;
+        }
+.sec8h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(1, 18, 18, 0.632);
+    margin-top: 55%;
+    margin-left: 52%;
+    margin-bottom: -30%;
+}
+.btn{
+    width: 35%;
+    margin-left: 30%;
+}
+
+
+/*sec9*/
+.footer{
+    background-color: gray;
+}
+.lastline{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Responsive Tweaks */
+@media screen and (max-width: 768px) {
+  .nav-item {
+    margin-left: 0;
+  }
+  .sec2img, .sec7img, .sec7img1, .sec8img {
+    width: 100%;
+  }
+  #myForm {
+    margin: 5% auto;
+  }
+}
+
+
+
+
+
+/*twohtml*/
+.videos{
+     background-color: aqua;
+    border-radius: 5%;
+    margin-left: 15%;
+    width: 35px;
+}
+.videos1{
+    background-color: aqua;
+    border-radius: 5%;
+    width: 35px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.three{
+    margin-top: -20%;
+    margin-left: 8%;
+}
+.five{
+    margin-top: -39%;
+    margin-left: 40%;
+}
+.four{
+    margin-left: 8%;
+    margin-top: 3%;
+}
