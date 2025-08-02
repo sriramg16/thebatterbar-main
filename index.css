@@ -220,3 +220,83 @@
     margin-left: 8%;
     margin-top: 3%;
 }
+
+
+
+/* For large phones (6.9 inch ~ 390px-430px width) */
+@media screen and (max-width: 450px) {
+  .navbar {
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .logo {
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .head, .head1, .sec2h1, .sec5h1, .sec7h1, .sec8h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: 5% 0;
+  }
+
+  .sec2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec2img {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  .sec2h1, .sec2p {
+    margin: 2% auto;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .sec4img, .sec7img, .sec7img1, .sec8img {
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 10px;
+  }
+
+  #myForm {
+    width: 90%;
+    margin: 10% auto;
+    padding: 5%;
+  }
+
+  .sec8h2 {
+    margin: 10% auto;
+    text-align: center;
+  }
+
+  .btn {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  .videos, .videos1 {
+    width: 60px;
+    margin: 10px auto;
+  }
+
+  .three, .four, .five {
+    margin: 5% auto;
+    text-align: center;
+  }
+
+  .lastline {
+    flex-direction: column;
+    align-items: center;
+  }
+}
